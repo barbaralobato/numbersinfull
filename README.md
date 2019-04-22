@@ -5,11 +5,15 @@ Web service to get numbers in full according to informed number.
 
 Docker
 
-You can get Docker installer on: https://www.docker.com/get-started
-
 ## How to execute it
 
 ### Run docker image from Docker Hub
+
+In a terminal, execute follow command:
+
+```
+docker run -p 5000:5000 barbaralobato/numbersinfull_pj_docker:latest
+```
 
 ### Using local docker image
 After cloning the project, in a terminal go to root folder (numbersinfull) and execute follow commands:
